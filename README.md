@@ -2,12 +2,11 @@
 # Hogwarts: Chapéu Seletor e Clube de Duelos
 
 > **Curso:** Lógica de Programação – Python
-> **Instrutora:** Rosanete Grassiani Dos Santos
 > **Desenvolvedor:** Marcelo Tomás Cavalheiro
 
 Este projeto é um sistema interativo desenvolvido em Python (otimizado para o Google Colab) que simula a experiência de um aluno recém-chegado a Hogwarts. O sistema realiza uma triagem interativa (Quiz) para definir a Casa do usuário e permite a interação na Sala Comunal, culminando em um sistema de duelos por turnos.
 
----
+
 
 ## Objetivo do Sistema
 
@@ -20,7 +19,7 @@ Definir uma Casa (Grifinória, Sonserina, Corvinal ou Lufa-Lufa) para o usuário
 * **Clube de Duelos:** Sistema de combate em turnos (Jogador vs PC) utilizando uma seleção de feitiços clássicos.
 * **Painel de Informações:** Consulta de dados do próprio aluno e listagem de outros usuários pertencentes à mesma Casa.
 
----
+
 
 ## Estrutura do Menu
 
@@ -42,7 +41,7 @@ O sistema é guiado por um menu principal em loop contínuo:
 4. **Área do Professor** *(Em desenvolvimento)*
 5. **Sair** (Opção `0` para encerrar o loop)
 
----
+
 
 ## Estrutura de Dados
 
@@ -52,7 +51,7 @@ Como o projeto foi adaptado para rodar no Google Colab de forma procedimental, a
 * **Casas de Hogwarts:** Armazena `Nome`, `Senha`, `Fundador` e `Arte`.
 * **Feitiços:** Armazena `Nome`, `Descrição`, `Dano Mínimo` e `Dano Máximo`.
 
----
+
 
 ## 🛠️ Mapeamento de Funções
 
@@ -73,7 +72,7 @@ Abaixo estão as principais funções implementadas para modularizar a lógica d
 * [x] Função sem parâmetro e com retorno *(a ser definida/utilizada nas validações)*
 * [x] Função sem parâmetro e sem retorno (`sistema`, `cadastrarAluno`, `salaComunal`)
 
----
+
 
 ## Lógica e Regras de Negócio
 
@@ -87,7 +86,7 @@ A função `iniciarDuelo()` resgata a lista de alunos, filtra por matrículas di
 4. **Sala Comunal:**
 Atua como uma área restrita. O aluno deve inserir sua matrícula para o sistema identificar seu `casaId`, e em seguida, inserir a senha da casa (revelada no final do cadastro).
 
----
+
 
 ## Organização e Desenvolvimento
 
