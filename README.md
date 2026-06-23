@@ -1,7 +1,7 @@
 
 # Hogwarts: Chapéu Seletor e Clube de Duelos
 
-> **Curso:** Lógica de Programação – Python
+> **Curso:** Lógica de Programação Senac – Python
 > **Desenvolvedor:** Marcelo Tomás Cavalheiro
 
 Este projeto é um sistema interativo desenvolvido em Python (otimizado para o Google Colab) que simula a experiência de um aluno recém-chegado a Hogwarts. O sistema realiza uma triagem interativa (Quiz) para definir a Casa do usuário e permite a interação na Sala Comunal, culminando em um sistema de duelos por turnos.
