@@ -53,7 +53,7 @@ Como o projeto foi adaptado para rodar no Google Colab de forma procedimental, a
 
 
 
-## 🛠️ Mapeamento de Funções
+## Mapeamento de Funções
 
 Abaixo estão as principais funções implementadas para modularizar a lógica do sistema, atendendo aos requisitos de diversidade de retornos e parâmetros:
 
